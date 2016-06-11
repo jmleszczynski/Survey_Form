@@ -1,0 +1,50 @@
+<html>
+
+	<head>
+	 	<title>Survey Form</title>
+	 	<link rel="stylesheet" href="survey_form.css">
+	</head>
+
+	<body>
+
+	<div id="container">
+		 	<h3>Add a User!</h3>
+		 	<form action='/users' method='post'>
+			 	
+		 		<div class="name">
+			 		<label>Your Name:</label> <input type='text' name='name'>
+			  	</div>
+
+			  	<div class="location">
+				  	<label>Dojo Location:</label> 	<select name="location">
+													    <option value="Mountian View" selected>Mountian View</option>
+													    <option value="Oceanside">Oceanside</option>
+													    <option value="Captial">Captial</option>
+													    <option value="Rainforest">Rainforest</option>
+													</select>
+				</div>
+
+				<div class="language">
+					<label>Favorite Language:</label> 	<select name="language">
+														    <option value="Javascript" selected>Javascript</option>
+														    <option value="Python">Python</option>
+														    <option value="Java">Java</option>
+														    <option value="PHP">PHP</option>
+														</select>
+				</div>
+
+				<div class="comment">
+					<label>Comment (optional):</label> <br> <textarea name="comment" rows="10" cols="60"></textarea>
+				</div>
+
+				<br>
+
+				<div class="submit">
+		  			<input type='submit' value='Submit'>
+		  		</div>
+
+		 	</form>
+		 </div>
+	</body>
+
+</html>

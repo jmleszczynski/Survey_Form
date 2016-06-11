@@ -1,0 +1,72 @@
+h3 {
+    width: 100px;
+    height: 100px;
+
+    position: relative;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+
+#container {
+  width: 960px;
+  margin: 0px auto;
+  border: 10px solid black;
+}
+
+form {
+    /*width: 100px;
+    height: 100px;*/
+
+    position: relative;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+    text-align: center;
+}
+input[type=text] {
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+
+}
+
+input[type=text]:focus {
+    border-color:#333;
+}
+
+textarea, select{
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+textarea:focus {
+    border-color:#333;
+}
+input[type=submit] {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+input, textarea, select {   
+  margin-left: 20px; 
+  margin-bottom: 30px; 
+  padding-right: 50px;}
+
+label {
+    display:inline-block;
+    width:100px;
+}
